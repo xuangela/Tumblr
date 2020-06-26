@@ -15,11 +15,11 @@
 		0B8C271424A4FB9A00C03698 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8C271324A4FB9A00C03698 /* main.m */; };
 		0B8C271E24A4FB9B00C03698 /* TumblrTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8C271D24A4FB9B00C03698 /* TumblrTests.m */; };
 		0B8C272924A4FB9B00C03698 /* TumblrUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8C272824A4FB9B00C03698 /* TumblrUITests.m */; };
-		0B8C273B24A4FEB600C03698 /* PhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8C273A24A4FEB600C03698 /* PhotosViewController.m */; };
 		0B8C274324A542EA00C03698 /* PhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8C274224A542EA00C03698 /* PhotoCell.m */; };
 		33612ECA3DEA8C2F43B42406 /* Pods_Tumblr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E742277BDB22949F24DC127E /* Pods_Tumblr.framework */; };
 		79F9C392C4EA04098C491B31 /* Pods_TumblrTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53664F9B74832BD28052E499 /* Pods_TumblrTests.framework */; };
 		95641903F68A515E8CE929AE /* Pods_Tumblr_TumblrUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7408279361877AE29C6003EB /* Pods_Tumblr_TumblrUITests.framework */; };
+		B9119D2124A5CE43001ECA4D /* PhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9119D2024A5CE43001ECA4D /* PhotosViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,8 +56,6 @@
 		0B8C272424A4FB9B00C03698 /* TumblrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TumblrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B8C272824A4FB9B00C03698 /* TumblrUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TumblrUITests.m; sourceTree = "<group>"; };
 		0B8C272A24A4FB9B00C03698 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0B8C273924A4FEB600C03698 /* PhotosViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PhotosViewController.h; path = "/Users/Angela/Documents/2020 Sum. FBU/Tumblr/Tumblr/PhotosViewController.h"; sourceTree = "<absolute>"; };
-		0B8C273A24A4FEB600C03698 /* PhotosViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = PhotosViewController.m; path = "/Users/Angela/Documents/2020 Sum. FBU/Tumblr/Tumblr/PhotosViewController.m"; sourceTree = "<absolute>"; };
 		0B8C274124A542EA00C03698 /* PhotoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoCell.h; sourceTree = "<group>"; };
 		0B8C274224A542EA00C03698 /* PhotoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoCell.m; sourceTree = "<group>"; };
 		2574358D7D1B5E5FC4109232 /* Pods-TumblrTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TumblrTests.debug.xcconfig"; path = "Target Support Files/Pods-TumblrTests/Pods-TumblrTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -66,6 +64,8 @@
 		6B162F796E703D7CFFBB2A31 /* Pods-Tumblr-TumblrUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tumblr-TumblrUITests.release.xcconfig"; path = "Target Support Files/Pods-Tumblr-TumblrUITests/Pods-Tumblr-TumblrUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7408279361877AE29C6003EB /* Pods_Tumblr_TumblrUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tumblr_TumblrUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9660F69E447A152CD7048C6D /* Pods-Tumblr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tumblr.debug.xcconfig"; path = "Target Support Files/Pods-Tumblr/Pods-Tumblr.debug.xcconfig"; sourceTree = "<group>"; };
+		B9119D1F24A5CE43001ECA4D /* PhotosViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotosViewController.h; sourceTree = "<group>"; };
+		B9119D2024A5CE43001ECA4D /* PhotosViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotosViewController.m; sourceTree = "<group>"; };
 		D6039308C0FB7D3AADD8B10B /* Pods-Tumblr-TumblrUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tumblr-TumblrUITests.debug.xcconfig"; path = "Target Support Files/Pods-Tumblr-TumblrUITests/Pods-Tumblr-TumblrUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E742277BDB22949F24DC127E /* Pods_Tumblr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tumblr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1F49701673C9BE91BED36A5 /* Pods-Tumblr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tumblr.release.xcconfig"; path = "Target Support Files/Pods-Tumblr/Pods-Tumblr.release.xcconfig"; sourceTree = "<group>"; };
@@ -124,8 +124,6 @@
 		0B8C270024A4FB8E00C03698 /* Tumblr */ = {
 			isa = PBXGroup;
 			children = (
-				0B8C273924A4FEB600C03698 /* PhotosViewController.h */,
-				0B8C273A24A4FEB600C03698 /* PhotosViewController.m */,
 				0B8C274024A52B2C00C03698 /* Views */,
 				0B8C270124A4FB8E00C03698 /* AppDelegate.h */,
 				0B8C270224A4FB8E00C03698 /* AppDelegate.m */,
@@ -136,6 +134,8 @@
 				0B8C270F24A4FB9A00C03698 /* LaunchScreen.storyboard */,
 				0B8C271224A4FB9A00C03698 /* Info.plist */,
 				0B8C271324A4FB9A00C03698 /* main.m */,
+				B9119D1F24A5CE43001ECA4D /* PhotosViewController.h */,
+				B9119D2024A5CE43001ECA4D /* PhotosViewController.m */,
 			);
 			path = Tumblr;
 			sourceTree = "<group>";
@@ -430,8 +430,8 @@
 			files = (
 				0B8C270324A4FB8E00C03698 /* AppDelegate.m in Sources */,
 				0B8C274324A542EA00C03698 /* PhotoCell.m in Sources */,
-				0B8C273B24A4FEB600C03698 /* PhotosViewController.m in Sources */,
 				0B8C271424A4FB9A00C03698 /* main.m in Sources */,
+				B9119D2124A5CE43001ECA4D /* PhotosViewController.m in Sources */,
 				0B8C270624A4FB8E00C03698 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
