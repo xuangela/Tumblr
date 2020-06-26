@@ -124,8 +124,9 @@
 		0B8C270024A4FB8E00C03698 /* Tumblr */ = {
 			isa = PBXGroup;
 			children = (
+				0B8C273924A4FEB600C03698 /* PhotosViewController.h */,
+				0B8C273A24A4FEB600C03698 /* PhotosViewController.m */,
 				0B8C274024A52B2C00C03698 /* Views */,
-				0B8C273F24A52AF900C03698 /* View Controllers */,
 				0B8C270124A4FB8E00C03698 /* AppDelegate.h */,
 				0B8C270224A4FB8E00C03698 /* AppDelegate.m */,
 				0B8C270424A4FB8E00C03698 /* SceneDelegate.h */,
@@ -155,15 +156,6 @@
 				0B8C272A24A4FB9B00C03698 /* Info.plist */,
 			);
 			path = TumblrUITests;
-			sourceTree = "<group>";
-		};
-		0B8C273F24A52AF900C03698 /* View Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				0B8C273924A4FEB600C03698 /* PhotosViewController.h */,
-				0B8C273A24A4FEB600C03698 /* PhotosViewController.m */,
-			);
-			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 		0B8C274024A52B2C00C03698 /* Views */ = {
